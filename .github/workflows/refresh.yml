@@ -1,0 +1,49 @@
+# Weekly refresh of data/events.json + data/events.csv from the official state
+# guaranty-fund / DOI pages. Commits the result back to the repo if it changed.
+#
+# P&C carrier insolvencies are rare, so weekly is ample. Each source is isolated:
+# a network or DOM-drift failure for one state yields 0 rows for that state and
+# logs a warning — it never aborts the run.
+name: refresh dataset
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"   # 06:17 UTC every Monday
+  workflow_dispatch: {}      # allow manual runs from the Actions tab
+
+permissions:
+  contents: write            # needed to commit the refreshed data back
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Stdlib only — nothing to install. Run the fetcher (it writes
+      # data/events.json + data/events.csv).
+      - name: Refresh dataset from official sources
+        run: python -m fetchers.fetch
+
+      # Sanity-check the refreshed artifact still loads + validates.
+      - name: Validate dataset
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+          python -m pytest tests/test_dataset.py -q
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "carrier-insolvency-bot"
+          git config user.email "info@coworkrecon.com"
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git add data/events.json data/events.csv
+            git commit -m "chore: weekly dataset refresh"
+            git push
+          else
+            echo "No dataset changes this week."
+          fi

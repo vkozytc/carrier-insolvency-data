@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "carrier-insolvency-data"
+version = "0.1.0"
+description = "A free, verifiable dataset + parsers for US P&C insurance carrier insolvency / receivership / liquidation events, with official source links."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = [
+  "insurance", "property-casualty", "insolvency", "receivership",
+  "liquidation", "guaranty-fund", "naic", "open-data", "dataset",
+]
+authors = [{ name = "Cowork Recon", email = "info@coworkrecon.com" }]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Office/Business :: Financial",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Intended Audience :: Developers",
+]
+dependencies = []   # stdlib only — trivial install, zero supply-chain surface
+
+[project.urls]
+Homepage = "https://app.coworkrecon.org/carrier-watch"
+Issues = "https://github.com/REPLACE_ME/carrier-insolvency-data/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/carrier_insolvency"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

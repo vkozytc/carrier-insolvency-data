@@ -1,0 +1,13 @@
+carrier_name,carrier_slug,state,event_type,event_date,source_url,source_name
+Crusader Insurance Company,crusader-insurance-company,CA,receivership,2023-06-07,https://www.caclo.org/perl/index.pl?document_id=66398c2bd35a,California Conservation & Liquidation Office
+FEDNAT INSURANCE COMPANY,fednat-insurance-company,FL,receivership,,https://www.myfloridacfo.com/division/receiver/companies/detail/562,Florida DFS — Division of Rehabilitation & Liquidation
+"ST. JOHNS INSURANCE COMPANY, INC.",st-johns-insurance-company-inc,FL,receivership,,https://www.myfloridacfo.com/division/receiver/companies/detail/557,Florida DFS — Division of Rehabilitation & Liquidation
+UNITED PROPERTY & CASUALTY INSURANCE COMPANY,united-property-casualty-insurance-company,FL,receivership,,https://www.myfloridacfo.com/division/receiver/companies/detail/563,Florida DFS — Division of Rehabilitation & Liquidation
+Access Home Insurance Company,access-home-insurance-company,LA,receivership,,https://www.laiga.org/,Louisiana Insurance Guaranty Association
+Americas Insurance Company,americas-insurance-company,LA,receivership,,https://www.laiga.org/,Louisiana Insurance Guaranty Association
+Southern Fidelity Insurance Company,southern-fidelity-insurance-company,LA,receivership,,https://www.laiga.org/,Louisiana Insurance Guaranty Association
+Arrowood Indemnity Company,arrowood-indemnity-company,NC,insolvency,2023-11-08,https://www.ncrb.org/nciga/Insolvencies,North Carolina Insurance Guaranty Association
+Lighthouse Property Ins Corp,lighthouse-property-ins-corp,NC,insolvency,2022-04-28,https://www.ncrb.org/nciga/Insolvencies,North Carolina Insurance Guaranty Association
+Reliance Insurance Company,reliance-insurance-company,NJ,liquidation,2001-10-03,https://www.njguaranty.org/njpliga-Insolvencies.html,New Jersey Property-Liability Insurance Guaranty Association
+ACCC Insurance Company,accc-insurance-company,TX,liquidation,2020-12-14,https://tpciga.org/liquidation-directory/,Texas Property & Casualty Insurance Guaranty Association
+Affirmative Insurance Company,affirmative-insurance-company,TX,liquidation,2016-03-24,https://tpciga.org/liquidation-directory/,Texas Property & Casualty Insurance Guaranty Association

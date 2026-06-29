@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-28T00:00:00Z",
+  "provenance": "Sample records ported from the cowork-recon parser test fixtures, which mirror the live state guaranty-fund / DOI page DOM. Verify each record against its source_url before relying on it. Run `python -m fetchers.fetch` (or the weekly GitHub Action) to refresh from the live sources.",
+  "event_count": 12,
+  "events": [
+    {
+      "carrier_name": "Crusader Insurance Company",
+      "carrier_slug": "crusader-insurance-company",
+      "state": "CA",
+      "event_type": "receivership",
+      "event_date": "2023-06-07",
+      "source_url": "https://www.caclo.org/perl/index.pl?document_id=66398c2bd35a",
+      "source_name": "California Conservation & Liquidation Office"
+    },
+    {
+      "carrier_name": "FEDNAT INSURANCE COMPANY",
+      "carrier_slug": "fednat-insurance-company",
+      "state": "FL",
+      "event_type": "receivership",
+      "event_date": null,
+      "source_url": "https://www.myfloridacfo.com/division/receiver/companies/detail/562",
+      "source_name": "Florida DFS — Division of Rehabilitation & Liquidation"
+    },
+    {
+      "carrier_name": "ST. JOHNS INSURANCE COMPANY, INC.",
+      "carrier_slug": "st-johns-insurance-company-inc",
+      "state": "FL",
+      "event_type": "receivership",
+      "event_date": null,
+      "source_url": "https://www.myfloridacfo.com/division/receiver/companies/detail/557",
+      "source_name": "Florida DFS — Division of Rehabilitation & Liquidation"
+    },
+    {
+      "carrier_name": "UNITED PROPERTY & CASUALTY INSURANCE COMPANY",
+      "carrier_slug": "united-property-casualty-insurance-company",
+      "state": "FL",
+      "event_type": "receivership",
+      "event_date": null,
+      "source_url": "https://www.myfloridacfo.com/division/receiver/companies/detail/563",
+      "source_name": "Florida DFS — Division of Rehabilitation & Liquidation"
+    },
+    {
+      "carrier_name": "Access Home Insurance Company",
+      "carrier_slug": "access-home-insurance-company",
+      "state": "LA",
+      "event_type": "receivership",
+      "event_date": null,
+      "source_url": "https://www.laiga.org/",
+      "source_name": "Louisiana Insurance Guaranty Association"
+    },
+    {
+      "carrier_name": "Americas Insurance Company",
+      "carrier_slug": "americas-insurance-company",
+      "state": "LA",
+      "event_type": "receivership",
+      "event_date": null,
+      "source_url": "https://www.laiga.org/",
+      "source_name": "Louisiana Insurance Guaranty Association"
+    },
+    {
+      "carrier_name": "Southern Fidelity Insurance Company",
+      "carrier_slug": "southern-fidelity-insurance-company",
+      "state": "LA",
+      "event_type": "receivership",
+      "event_date": null,
+      "source_url": "https://www.laiga.org/",
+      "source_name": "Louisiana Insurance Guaranty Association"
+    },
+    {
+      "carrier_name": "Arrowood Indemnity Company",
+      "carrier_slug": "arrowood-indemnity-company",
+      "state": "NC",
+      "event_type": "insolvency",
+      "event_date": "2023-11-08",
+      "source_url": "https://www.ncrb.org/nciga/Insolvencies",
+      "source_name": "North Carolina Insurance Guaranty Association"
+    },
+    {
+      "carrier_name": "Lighthouse Property Ins Corp",
+      "carrier_slug": "lighthouse-property-ins-corp",
+      "state": "NC",
+      "event_type": "insolvency",
+      "event_date": "2022-04-28",
+      "source_url": "https://www.ncrb.org/nciga/Insolvencies",
+      "source_name": "North Carolina Insurance Guaranty Association"
+    },
+    {
+      "carrier_name": "Reliance Insurance Company",
+      "carrier_slug": "reliance-insurance-company",
+      "state": "NJ",
+      "event_type": "liquidation",
+      "event_date": "2001-10-03",
+      "source_url": "https://www.njguaranty.org/njpliga-Insolvencies.html",
+      "source_name": "New Jersey Property-Liability Insurance Guaranty Association"
+    },
+    {
+      "carrier_name": "ACCC Insurance Company",
+      "carrier_slug": "accc-insurance-company",
+      "state": "TX",
+      "event_type": "liquidation",
+      "event_date": "2020-12-14",
+      "source_url": "https://tpciga.org/liquidation-directory/",
+      "source_name": "Texas Property & Casualty Insurance Guaranty Association"
+    },
+    {
+      "carrier_name": "Affirmative Insurance Company",
+      "carrier_slug": "affirmative-insurance-company",
+      "state": "TX",
+      "event_type": "liquidation",
+      "event_date": "2016-03-24",
+      "source_url": "https://tpciga.org/liquidation-directory/",
+      "source_name": "Texas Property & Casualty Insurance Guaranty Association"
+    }
+  ]
+}
