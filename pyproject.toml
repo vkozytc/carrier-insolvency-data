@@ -25,7 +25,7 @@ dependencies = []   # stdlib only — trivial install, zero supply-chain surface
 
 [project.urls]
 Homepage = "https://app.coworkrecon.org/carrier-watch"
-Issues = "https://github.com/REPLACE_ME/carrier-insolvency-data/issues"
+Issues = "https://github.com/vkozytc/carrier-insolvency-data/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/carrier_insolvency"]
