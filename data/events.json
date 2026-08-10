@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-03T07:25:58Z",
-  "event_count": 270,
+  "generated_at": "2026-08-10T06:45:40Z",
+  "event_count": 263,
   "events": [
     {
       "carrier_name": "California Insurance Company",
@@ -191,78 +191,6 @@
       "event_date": null,
       "source_url": "https://www.myfloridacfo.com/division/receiver/companies/detail/554",
       "source_name": "Florida DFS — Division of Rehabilitation & Liquidation"
-    },
-    {
-      "carrier_name": "Access Home Insurance Company",
-      "carrier_slug": "access-home-insurance-company",
-      "state": "LA",
-      "event_type": "receivership",
-      "event_date": null,
-      "source_url": "https://www.laiga.org/",
-      "source_name": "Louisiana Insurance Guaranty Association"
-    },
-    {
-      "carrier_name": "Americas Insurance Company",
-      "carrier_slug": "americas-insurance-company",
-      "state": "LA",
-      "event_type": "receivership",
-      "event_date": null,
-      "source_url": "https://www.laiga.org/",
-      "source_name": "Louisiana Insurance Guaranty Association"
-    },
-    {
-      "carrier_name": "Arrowood Indemnity Company",
-      "carrier_slug": "arrowood-indemnity-company",
-      "state": "LA",
-      "event_type": "receivership",
-      "event_date": null,
-      "source_url": "https://www.laiga.org/",
-      "source_name": "Louisiana Insurance Guaranty Association"
-    },
-    {
-      "carrier_name": "FedNat Insurance Company",
-      "carrier_slug": "fednat-insurance-company",
-      "state": "LA",
-      "event_type": "receivership",
-      "event_date": null,
-      "source_url": "https://www.laiga.org/",
-      "source_name": "Louisiana Insurance Guaranty Association"
-    },
-    {
-      "carrier_name": "Southern Fidelity Insurance Company",
-      "carrier_slug": "southern-fidelity-insurance-company",
-      "state": "LA",
-      "event_type": "receivership",
-      "event_date": null,
-      "source_url": "https://www.laiga.org/",
-      "source_name": "Louisiana Insurance Guaranty Association"
-    },
-    {
-      "carrier_name": "State National Fire Insurance Company",
-      "carrier_slug": "state-national-fire-insurance-company",
-      "state": "LA",
-      "event_type": "receivership",
-      "event_date": null,
-      "source_url": "https://www.laiga.org/",
-      "source_name": "Louisiana Insurance Guaranty Association"
-    },
-    {
-      "carrier_name": "United Property & Casualty Insurance Company",
-      "carrier_slug": "united-property-casualty-insurance-company",
-      "state": "LA",
-      "event_type": "receivership",
-      "event_date": null,
-      "source_url": "https://www.laiga.org/",
-      "source_name": "Louisiana Insurance Guaranty Association"
-    },
-    {
-      "carrier_name": "Weston Property & Casualty Insurance Company",
-      "carrier_slug": "weston-property-casualty-insurance-company",
-      "state": "LA",
-      "event_type": "receivership",
-      "event_date": null,
-      "source_url": "https://www.laiga.org/",
-      "source_name": "Louisiana Insurance Guaranty Association"
     },
     {
       "carrier_name": "Affirmative Insurance Company",
@@ -1314,6 +1242,15 @@
       "state": "NJ",
       "event_type": "liquidation",
       "event_date": "2008-02-11",
+      "source_url": "https://www.njguaranty.org/njpliga-Insolvencies.html",
+      "source_name": "New Jersey Property-Liability Insurance Guaranty Association"
+    },
+    {
+      "carrier_name": "NJ PURE",
+      "carrier_slug": "nj-pure",
+      "state": "NJ",
+      "event_type": "liquidation",
+      "event_date": "2026-07-27",
       "source_url": "https://www.njguaranty.org/njpliga-Insolvencies.html",
       "source_name": "New Jersey Property-Liability Insurance Guaranty Association"
     },
